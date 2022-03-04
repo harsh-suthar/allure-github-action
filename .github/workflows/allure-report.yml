@@ -3,6 +3,7 @@ name: allure-python-pytest
 on:
   - push
   - pull_request
+  - status
 
 jobs:
   autotests:
