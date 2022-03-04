@@ -1,0 +1,131 @@
+{
+  "uid" : "ccf414a373a997ea",
+  "name" : "test_get_token2",
+  "fullName" : "tests.perf.test_pb.TestClasss#test_get_token2",
+  "historyId" : "6c09f513892f400b5e9db4af2e244b7d",
+  "time" : {
+    "start" : 1646412571642,
+    "stop" : 1646412571833,
+    "duration" : 191
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Test1 execution start",
+      "time" : {
+        "start" : 1646412571643,
+        "stop" : 1646412571832,
+        "duration" : 189
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get 1st Todo item",
+        "time" : {
+          "start" : 1646412571643,
+          "stop" : 1646412571832,
+          "duration" : 189
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "9cce5b50105af678",
+          "name" : "Get Request",
+          "source" : "9cce5b50105af678.txt",
+          "type" : "text/plain",
+          "size" : 231
+        }, {
+          "uid" : "82001490c6a8e063",
+          "name" : "Response",
+          "source" : "82001490c6a8e063.txt",
+          "type" : "text/plain",
+          "size" : 1253
+        } ],
+        "parameters" : [ {
+          "name" : "client",
+          "value" : "<module 'requests' from '/opt/hostedtoolcache/Python/3.10.2/x64/lib/python3.10/site-packages/requests/__init__.py'>"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.perf"
+  }, {
+    "name" : "suite",
+    "value" : "test_pb"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestClasss"
+  }, {
+    "name" : "host",
+    "value" : "fv-az292-221"
+  }, {
+    "name" : "thread",
+    "value" : "2264-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.perf.test_pb"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "79fee4a6f36d9c7c",
+        "reportUrl" : "https://harsh-suthar.github.io/allure-github-action/11//#testresult/79fee4a6f36d9c7c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646411070467,
+          "stop" : 1646411070524,
+          "duration" : 57
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ccf414a373a997ea.json",
+  "parameterValues" : [ ]
+}
