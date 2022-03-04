@@ -44,9 +44,6 @@ jobs:
           #allure_report: allure-report
           allure_history: allure-history
 
-      - name: Copy Report
-        run: cp index.html ../allure-history
-
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4.2.2
         with:
