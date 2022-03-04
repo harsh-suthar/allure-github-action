@@ -1,3 +1,8 @@
 [ {
+  "buildOrder" : 9,
+  "reportUrl" : "https://harsh-suthar.github.io/allure-github-action/9/",
+  "reportName" : "Allure Report with history",
+  "data" : { }
+}, {
   "data" : { }
 } ]
