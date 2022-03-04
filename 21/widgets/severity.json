@@ -1,0 +1,21 @@
+[ {
+  "uid" : "cc708fa1cd73e98f",
+  "name" : "test_get_token2",
+  "time" : {
+    "start" : 1646418605209,
+    "stop" : 1646418605251,
+    "duration" : 42
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "141e401f2b723ce",
+  "name" : "test_get_token1",
+  "time" : {
+    "start" : 1646418604831,
+    "stop" : 1646418605207,
+    "duration" : 376
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
