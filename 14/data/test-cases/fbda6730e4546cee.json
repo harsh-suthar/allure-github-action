@@ -1,0 +1,173 @@
+{
+  "uid" : "fbda6730e4546cee",
+  "name" : "test_get_token1",
+  "fullName" : "tests.perf.test_pb.TestClasss#test_get_token1",
+  "historyId" : "4c8b55689f03d6ac2fd24f194bd8493b",
+  "time" : {
+    "start" : 1646413456376,
+    "stop" : 1646413456896,
+    "duration" : 520
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Test1 execution start",
+      "time" : {
+        "start" : 1646413456376,
+        "stop" : 1646413456896,
+        "duration" : 520
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Generate Token",
+        "time" : {
+          "start" : 1646413456377,
+          "stop" : 1646413456896,
+          "duration" : 519
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Execute request",
+          "time" : {
+            "start" : 1646413456377,
+            "stop" : 1646413456896,
+            "duration" : 519
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "b1259cf770c851e6",
+            "name" : "Post Request",
+            "source" : "b1259cf770c851e6.txt",
+            "type" : "text/plain",
+            "size" : 445
+          }, {
+            "uid" : "a537bc4c3ed1c6f4",
+            "name" : "Response",
+            "source" : "a537bc4c3ed1c6f4.txt",
+            "type" : "text/plain",
+            "size" : 964
+          } ],
+          "parameters" : [ {
+            "name" : "client",
+            "value" : "<module 'requests' from '/opt/hostedtoolcache/Python/3.10.2/x64/lib/python3.10/site-packages/requests/__init__.py'>"
+          }, {
+            "name" : "path",
+            "value" : "'/Authentication/GetToken'"
+          }, {
+            "name" : "body",
+            "value" : "{'portalDeviceGuid': 'DCFD38CE-60DD-4951-A2C7-4EB3DBC516F9', 'phoneNumber': '4168809871', 'culture': 'en'}"
+          } ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 2,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "client",
+          "value" : "<module 'requests' from '/opt/hostedtoolcache/Python/3.10.2/x64/lib/python3.10/site-packages/requests/__init__.py'>"
+        } ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.perf"
+  }, {
+    "name" : "suite",
+    "value" : "test_pb"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestClasss"
+  }, {
+    "name" : "host",
+    "value" : "fv-az397-259"
+  }, {
+    "name" : "thread",
+    "value" : "2256-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.perf.test_pb"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "5bf84fab67051681",
+        "reportUrl" : "https://harsh-suthar.github.io/allure-github-action/13//#testresult/5bf84fab67051681",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646413138508,
+          "stop" : 1646413138861,
+          "duration" : 353
+        }
+      }, {
+        "uid" : "2449727106d30cc5",
+        "reportUrl" : "https://harsh-suthar.github.io/allure-github-action/12//#testresult/2449727106d30cc5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646412571091,
+          "stop" : 1646412571639,
+          "duration" : 548
+        }
+      }, {
+        "uid" : "5904202477ce2a28",
+        "reportUrl" : "https://harsh-suthar.github.io/allure-github-action/11//#testresult/5904202477ce2a28",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646411070109,
+          "stop" : 1646411070464,
+          "duration" : 355
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "fbda6730e4546cee.json",
+  "parameterValues" : [ ]
+}
