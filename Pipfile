@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+selenium = "*"
+selenium-support = "*"
+pillow = "*"
+webdriver-manager = "*"
+pytest = "*"
+allure-pytest = "*"
+locust = "*"
+requests = "*"
+faker = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
