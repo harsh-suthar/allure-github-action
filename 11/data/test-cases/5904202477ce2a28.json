@@ -1,0 +1,135 @@
+{
+  "uid" : "5904202477ce2a28",
+  "name" : "test_get_token1",
+  "fullName" : "tests.perf.test_pb.TestClasss#test_get_token1",
+  "historyId" : "4c8b55689f03d6ac2fd24f194bd8493b",
+  "time" : {
+    "start" : 1646411070109,
+    "stop" : 1646411070464,
+    "duration" : 355
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Test1 execution start",
+      "time" : {
+        "start" : 1646411070109,
+        "stop" : 1646411070464,
+        "duration" : 355
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Generate Token",
+        "time" : {
+          "start" : 1646411070109,
+          "stop" : 1646411070464,
+          "duration" : 355
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Execute request",
+          "time" : {
+            "start" : 1646411070109,
+            "stop" : 1646411070464,
+            "duration" : 355
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "5e400a03395e5cbc",
+            "name" : "Post Request",
+            "source" : "5e400a03395e5cbc.txt",
+            "type" : "text/plain",
+            "size" : 445
+          }, {
+            "uid" : "4bd6da899c1fa77b",
+            "name" : "Response",
+            "source" : "4bd6da899c1fa77b.txt",
+            "type" : "text/plain",
+            "size" : 964
+          } ],
+          "parameters" : [ {
+            "name" : "client",
+            "value" : "<module 'requests' from '/opt/hostedtoolcache/Python/3.10.2/x64/lib/python3.10/site-packages/requests/__init__.py'>"
+          }, {
+            "name" : "path",
+            "value" : "'/Authentication/GetToken'"
+          }, {
+            "name" : "body",
+            "value" : "{'portalDeviceGuid': 'DCFD38CE-60DD-4951-A2C7-4EB3DBC516F9', 'phoneNumber': '4168809871', 'culture': 'en'}"
+          } ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 2,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "client",
+          "value" : "<module 'requests' from '/opt/hostedtoolcache/Python/3.10.2/x64/lib/python3.10/site-packages/requests/__init__.py'>"
+        } ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.perf"
+  }, {
+    "name" : "suite",
+    "value" : "test_pb"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestClasss"
+  }, {
+    "name" : "host",
+    "value" : "fv-az204-60"
+  }, {
+    "name" : "thread",
+    "value" : "2184-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.perf.test_pb"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5904202477ce2a28.json",
+  "parameterValues" : [ ]
+}
