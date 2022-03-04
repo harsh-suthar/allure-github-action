@@ -1,9 +1,9 @@
 name: allure-python-pytest
 
 on:
-  push:
-    branches-ignore:
-      - '!master'
+  workflow_dispatch:
+  schedule:
+    - cron: '0 */4 * * *'
 
 jobs:
   autotests:
@@ -11,7 +11,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-
       - name: Set up Python 3.10
         uses: actions/setup-python@v2
         with:
