@@ -8,26 +8,26 @@
         "name" : "TestClasss",
         "children" : [ {
           "name" : "test_get_token1",
-          "uid" : "87d2c635c0eb948f",
+          "uid" : "b0b8121090a11fe3",
           "parentUid" : "fbf761236c823553f9613c397df70581",
           "status" : "passed",
           "time" : {
-            "start" : 1646418852350,
-            "stop" : 1646418852731,
-            "duration" : 381
+            "start" : 1646419286959,
+            "stop" : 1646419287330,
+            "duration" : 371
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "test_get_token2",
-          "uid" : "646caecf91655969",
+          "uid" : "94badba22f8def0e",
           "parentUid" : "fbf761236c823553f9613c397df70581",
           "status" : "passed",
           "time" : {
-            "start" : 1646418852733,
-            "stop" : 1646418852769,
-            "duration" : 36
+            "start" : 1646419287334,
+            "stop" : 1646419287416,
+            "duration" : 82
           },
           "flaky" : false,
           "newFailed" : false,

@@ -4,11 +4,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 11,
+      "passed" : 12,
       "unknown" : 0,
-      "total" : 11
+      "total" : 12
     },
     "items" : [ {
+      "uid" : "94badba22f8def0e",
+      "reportUrl" : "https://harsh-suthar.github.io/allure-github-action/22//#testresult/94badba22f8def0e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646419287334,
+        "stop" : 1646419287416,
+        "duration" : 82
+      }
+    }, {
       "uid" : "646caecf91655969",
       "reportUrl" : "https://harsh-suthar.github.io/allure-github-action/22//#testresult/646caecf91655969",
       "status" : "passed",
@@ -114,11 +123,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 11,
+      "passed" : 12,
       "unknown" : 0,
-      "total" : 11
+      "total" : 12
     },
     "items" : [ {
+      "uid" : "b0b8121090a11fe3",
+      "reportUrl" : "https://harsh-suthar.github.io/allure-github-action/22//#testresult/b0b8121090a11fe3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646419286959,
+        "stop" : 1646419287330,
+        "duration" : 371
+      }
+    }, {
       "uid" : "87d2c635c0eb948f",
       "reportUrl" : "https://harsh-suthar.github.io/allure-github-action/22//#testresult/87d2c635c0eb948f",
       "status" : "passed",

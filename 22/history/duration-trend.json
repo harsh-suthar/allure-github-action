@@ -3,6 +3,13 @@
   "reportUrl" : "https://harsh-suthar.github.io/allure-github-action/22/",
   "reportName" : "Allure Report with history",
   "data" : {
+    "duration" : 457
+  }
+}, {
+  "buildOrder" : 22,
+  "reportUrl" : "https://harsh-suthar.github.io/allure-github-action/22/",
+  "reportName" : "Allure Report with history",
+  "data" : {
     "duration" : 419
   }
 }, {
