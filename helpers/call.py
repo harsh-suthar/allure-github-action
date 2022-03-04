@@ -1,10 +1,10 @@
 import allure
 import requests
-from faker import Faker
+
 
 from helpers import api
 
-fake = Faker()
+
 
 
 @allure.step("Get all todo items")
