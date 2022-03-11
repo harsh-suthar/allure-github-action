@@ -1,3 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Fri Mar 04 18:13:10 GMT 2022","Fri Mar 04 18:13:10 GMT 2022","68","tests.perf","test_pb","TestClasss","","","test_get_token2",""
-"passed","Fri Mar 04 18:13:09 GMT 2022","Fri Mar 04 18:13:10 GMT 2022","391","tests.perf","test_pb","TestClasss","","","test_get_token1",""
