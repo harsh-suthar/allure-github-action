@@ -1,0 +1,11 @@
+[ {
+  "uid" : "467ffc07b4d38b00",
+  "name" : "test_odin",
+  "time" : {
+    "start" : 1647019904287,
+    "stop" : 1647019904287,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]
