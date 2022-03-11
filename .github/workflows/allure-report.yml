@@ -5,7 +5,7 @@ on:
   - pull_request
 
 env:
-    ODIN: ${{ secrets.ODIN }}
+    ODIN: direct-i-03056e50fb32fd027
 
 jobs:
   autotests:
