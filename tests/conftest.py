@@ -2,6 +2,7 @@ import pytest
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
+from helpers import ConfigurationReader
 
 config = ConfigurationReader()
 platform_config = config.read_json("allure-github-action/tests", "config.json")
