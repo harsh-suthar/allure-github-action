@@ -2,7 +2,15 @@ import pytest
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
-from helpers import ConfigurationReader
+import os
+import allure
+from dotenv import load_dotenv
+import pytest
+from allure_commons.types import AttachmentType
+from helpers.ConfigurationReader import ConfigurationReader
+from src.AffirmTest.helpers.driver import DriverExtensions
+from src.AffirmTest.utils.mobile_utility import MobileUtility
+
 
 config = ConfigurationReader()
 platform_config = config.read_json("allure-github-action/tests", "config.json")
