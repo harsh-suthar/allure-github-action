@@ -44,3 +44,4 @@ trio-websocket==0.9.2
 urllib3==1.25.11
 webdriver-manager==3.5.2
 wsproto
+pyjavaproperties
