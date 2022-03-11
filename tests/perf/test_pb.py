@@ -1,8 +1,9 @@
 import allure
 from helpers import call as posts
-from base.baseclass import WebBaseClass
 
-class TestWeb(webbaseclass):
+
+@pytest.mark.usefixtures("set_up")
+class TestWeb:
     def test_odin(self):
         pass
 
