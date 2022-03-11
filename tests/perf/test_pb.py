@@ -1,5 +1,4 @@
 import allure
-
 from helpers import call as posts
 
 

@@ -13,15 +13,8 @@ def pytest_addoption(parser):
 
 @pytest.fixture
 def set_up(request,odin):
-    chrome_options = Options()
-    chrome_options.add_argument('--headless')
-    chrome_options.add_argument("--start-maximized")
-    chrome_options.add_argument("--hide-scrollbars")
-    driver = webdriver.Chrome(executable_path=ChromeDriverManager().install(), options=chrome_options)
-    print(odin)
-    request.cls.driver = driver
-    yield driver
-    driver.quit()
+    print(f"http://{odin}.affirm-odin.com")
+    
 
     
 @pytest.fixture(name="odin")
