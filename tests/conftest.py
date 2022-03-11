@@ -12,7 +12,7 @@ from helpers.ConfigurationReader import ConfigurationReader
 
 
 config = ConfigurationReader()
-platform_config = config.read_json("allure-github-action/tests", "config.json")
+platform_config = config.read_json("tests", "config.json")
 env_config = platform_config.get("Environments")
 
 def pytest_addoption(parser):
