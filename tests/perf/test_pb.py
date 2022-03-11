@@ -6,7 +6,7 @@ import pytest
 @pytest.mark.usefixtures("set_up")
 class TestWeb:
     def test_odin(self,odin):
-        allure.attach((odin), name='Odin', attachment_type=self.allure.attachment_type.TEXT)
+        self.allure.attach((odin), name='Odin', attachment_type=self.allure.attachment_type.TEXT)
 
 
 
