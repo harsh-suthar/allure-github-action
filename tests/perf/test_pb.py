@@ -2,7 +2,7 @@ import allure
 from helpers import call as posts
 
 
-class TestWeb(WebBaseClass):
+class TestWeb(webbaseclass):
     def test_odin(self):
         pass
 
