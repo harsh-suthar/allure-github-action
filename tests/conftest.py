@@ -8,8 +8,7 @@ from dotenv import load_dotenv
 import pytest
 from allure_commons.types import AttachmentType
 from helpers.ConfigurationReader import ConfigurationReader
-from src.AffirmTest.helpers.driver import DriverExtensions
-from src.AffirmTest.utils.mobile_utility import MobileUtility
+
 
 
 config = ConfigurationReader()
