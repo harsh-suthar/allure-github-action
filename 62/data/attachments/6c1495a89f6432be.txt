@@ -1,0 +1,8 @@
+-----------GET Request Start-----------
+GET https://jsonplaceholder.typicode.com/todos/1
+User-Agent: python-requests/2.27.1
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+-----------GET Request End-----------
