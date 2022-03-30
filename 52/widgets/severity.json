@@ -1,0 +1,31 @@
+[ {
+  "uid" : "2e9c1cf18b9a2712",
+  "name" : "test_get_token1",
+  "time" : {
+    "start" : 1648666036798,
+    "stop" : 1648666037265,
+    "duration" : 467
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4c49a227c00e0dfd",
+  "name" : "test_odin",
+  "time" : {
+    "start" : 1648666036796,
+    "stop" : 1648666036796,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "696d625a3fe70fb8",
+  "name" : "test_get_token2",
+  "time" : {
+    "start" : 1648666037268,
+    "stop" : 1648666037348,
+    "duration" : 80
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
