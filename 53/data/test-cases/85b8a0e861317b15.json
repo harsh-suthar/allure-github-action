@@ -1,0 +1,216 @@
+{
+  "uid" : "85b8a0e861317b15",
+  "name" : "test_odin",
+  "fullName" : "tests.perf.test_pb.TestWeb#test_odin",
+  "historyId" : "ac85578b57ba10c5cb46ad7e9796aeb8",
+  "time" : {
+    "start" : 1648666150883,
+    "stop" : 1648666150883,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1648666150790,
+      "stop" : 1648666150851,
+      "duration" : 61
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "odin",
+    "time" : {
+      "start" : 1648666150851,
+      "stop" : 1648666150851,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "set_up",
+    "time" : {
+      "start" : 1648666150851,
+      "stop" : 1648666150851,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('set_up')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.perf"
+  }, {
+    "name" : "suite",
+    "value" : "test_pb"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestWeb"
+  }, {
+    "name" : "host",
+    "value" : "fv-az397-503"
+  }, {
+    "name" : "thread",
+    "value" : "2029-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.perf.test_pb"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 10,
+        "unknown" : 0,
+        "total" : 12
+      },
+      "items" : [ {
+        "uid" : "4c49a227c00e0dfd",
+        "reportUrl" : "https://harsh-suthar.github.io/allure-github-action/52//#testresult/4c49a227c00e0dfd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648666036796,
+          "stop" : 1648666036796,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "3e6502528ebdd41b",
+        "reportUrl" : "https://harsh-suthar.github.io/allure-github-action/51//#testresult/3e6502528ebdd41b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648665368817,
+          "stop" : 1648665368817,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "f3e09f5e9525a4be",
+        "reportUrl" : "https://harsh-suthar.github.io/allure-github-action/50//#testresult/f3e09f5e9525a4be",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648665101306,
+          "stop" : 1648665101306,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "dfc05bdd59c9a62a",
+        "reportUrl" : "https://harsh-suthar.github.io/allure-github-action/50//#testresult/dfc05bdd59c9a62a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648482519648,
+          "stop" : 1648482519648,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "814650b316743f8",
+        "reportUrl" : "https://harsh-suthar.github.io/allure-github-action/49//#testresult/814650b316743f8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648057873119,
+          "stop" : 1648057873119,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "d07c10cb03cd3ab5",
+        "reportUrl" : "https://harsh-suthar.github.io/allure-github-action/48//#testresult/d07c10cb03cd3ab5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647020011606,
+          "stop" : 1647020011606,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "467ffc07b4d38b00",
+        "reportUrl" : "https://harsh-suthar.github.io/allure-github-action/47//#testresult/467ffc07b4d38b00",
+        "status" : "broken",
+        "statusDetails" : "AttributeError: 'TestWeb' object has no attribute 'allure'",
+        "time" : {
+          "start" : 1647019904287,
+          "stop" : 1647019904287,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "2d5c9fbb27a7bcc4",
+        "reportUrl" : "https://harsh-suthar.github.io/allure-github-action/46//#testresult/2d5c9fbb27a7bcc4",
+        "status" : "broken",
+        "statusDetails" : "AttributeError: 'TestWeb' object has no attribute 'allure'",
+        "time" : {
+          "start" : 1647019796512,
+          "stop" : 1647019796512,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "95a189f7391d1d4c",
+        "reportUrl" : "https://harsh-suthar.github.io/allure-github-action/45//#testresult/95a189f7391d1d4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647019322567,
+          "stop" : 1647019322567,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "29c700f94942031e",
+        "reportUrl" : "https://harsh-suthar.github.io/allure-github-action/44//#testresult/29c700f94942031e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647019012986,
+          "stop" : 1647019012986,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "f8885a556ad11105",
+        "reportUrl" : "https://harsh-suthar.github.io/allure-github-action/43//#testresult/f8885a556ad11105",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647018912164,
+          "stop" : 1647018912164,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ "@pytest.mark.usefixtures('set_up')" ]
+  },
+  "source" : "85b8a0e861317b15.json",
+  "parameterValues" : [ ]
+}
