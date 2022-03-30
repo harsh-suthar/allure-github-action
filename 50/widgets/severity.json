@@ -1,30 +1,30 @@
 [ {
-  "uid" : "2af0aa3c1f073281",
+  "uid" : "9937bc6f33cf1b07",
   "name" : "test_get_token1",
   "time" : {
-    "start" : 1648482519650,
-    "stop" : 1648482520156,
-    "duration" : 506
+    "start" : 1648665101308,
+    "stop" : 1648665102008,
+    "duration" : 700
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "3a876bc7d60ac69d",
-  "name" : "test_get_token2",
-  "time" : {
-    "start" : 1648482520159,
-    "stop" : 1648482520282,
-    "duration" : 123
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "dfc05bdd59c9a62a",
+  "uid" : "f3e09f5e9525a4be",
   "name" : "test_odin",
   "time" : {
-    "start" : 1648482519648,
-    "stop" : 1648482519648,
+    "start" : 1648665101306,
+    "stop" : 1648665101306,
     "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2b18810fbb836116",
+  "name" : "test_get_token2",
+  "time" : {
+    "start" : 1648665102011,
+    "stop" : 1648665102076,
+    "duration" : 65
   },
   "status" : "passed",
   "severity" : "normal"

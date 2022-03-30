@@ -7,6 +7,14 @@
     "retry" : 0
   }
 }, {
+  "buildOrder" : 50,
+  "reportUrl" : "https://harsh-suthar.github.io/allure-github-action/50/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "run" : 3,
+    "retry" : 0
+  }
+}, {
   "buildOrder" : 49,
   "reportUrl" : "https://harsh-suthar.github.io/allure-github-action/49/",
   "reportName" : "Allure Report with history",

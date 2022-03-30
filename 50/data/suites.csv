@@ -1,4 +1,4 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Mon Mar 28 15:48:39 GMT 2022","Mon Mar 28 15:48:39 GMT 2022","0","tests.perf","test_pb","TestWeb","","","test_odin",""
-"passed","Mon Mar 28 15:48:39 GMT 2022","Mon Mar 28 15:48:40 GMT 2022","506","tests.perf","test_pb","TestWeb","","","test_get_token1",""
-"passed","Mon Mar 28 15:48:40 GMT 2022","Mon Mar 28 15:48:40 GMT 2022","123","tests.perf","test_pb","TestWeb","","","test_get_token2",""
+"passed","Wed Mar 30 18:31:41 GMT 2022","Wed Mar 30 18:31:41 GMT 2022","0","tests.perf","test_pb","TestWeb","","","test_odin",""
+"passed","Wed Mar 30 18:31:41 GMT 2022","Wed Mar 30 18:31:42 GMT 2022","700","tests.perf","test_pb","TestWeb","","","test_get_token1",""
+"passed","Wed Mar 30 18:31:42 GMT 2022","Wed Mar 30 18:31:42 GMT 2022","65","tests.perf","test_pb","TestWeb","","","test_get_token2",""

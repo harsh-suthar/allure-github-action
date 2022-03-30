@@ -4,11 +4,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "9937bc6f33cf1b07",
+      "reportUrl" : "https://harsh-suthar.github.io/allure-github-action/50//#testresult/9937bc6f33cf1b07",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648665101308,
+        "stop" : 1648665102008,
+        "duration" : 700
+      }
+    }, {
       "uid" : "2af0aa3c1f073281",
       "reportUrl" : "https://harsh-suthar.github.io/allure-github-action/50//#testresult/2af0aa3c1f073281",
       "status" : "passed",
@@ -33,11 +42,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "2b18810fbb836116",
+      "reportUrl" : "https://harsh-suthar.github.io/allure-github-action/50//#testresult/2b18810fbb836116",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648665102011,
+        "stop" : 1648665102076,
+        "duration" : 65
+      }
+    }, {
       "uid" : "3a876bc7d60ac69d",
       "reportUrl" : "https://harsh-suthar.github.io/allure-github-action/50//#testresult/3a876bc7d60ac69d",
       "status" : "passed",
@@ -62,11 +80,20 @@
       "failed" : 0,
       "broken" : 2,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 8
+      "total" : 9
     },
     "items" : [ {
+      "uid" : "f3e09f5e9525a4be",
+      "reportUrl" : "https://harsh-suthar.github.io/allure-github-action/50//#testresult/f3e09f5e9525a4be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648665101306,
+        "stop" : 1648665101306,
+        "duration" : 0
+      }
+    }, {
       "uid" : "dfc05bdd59c9a62a",
       "reportUrl" : "https://harsh-suthar.github.io/allure-github-action/50//#testresult/dfc05bdd59c9a62a",
       "status" : "passed",
