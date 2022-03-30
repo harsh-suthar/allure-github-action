@@ -1,6 +1,6 @@
 import pytest
 
 
-@pytest.mark.usefixtures("set_up")
+@pytest.mark.usefixtures("web_setup")
 class webbaseclass:
     pass
