@@ -25,8 +25,8 @@ jobs:
           
       - name: Install Google Chrome
         run: |
-          chmod +x ./scripts/InstallChrome.sh
-          ./scripts/InstallChrome.sh
+          chmod +x ./scripts/installChrome.sh
+          ./scripts/installChrome.sh
       - name: Run Test
         if: always()
         run: pytest --alluredir=allure-results
