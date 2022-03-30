@@ -9,13 +9,13 @@ class TestWeb:
         print(odin)
         pass
 
-    @allure.link('https://github.com/harsh-suthar/allure-github-action/commit/333ca228f74b0556efa4c8d9394bf29524007a3f', name='Check Code Change')
-    @allure.step("Test1 execution start")
+    @allure.dynamic.link('https://github.com/harsh-suthar/allure-github-action/commit/333ca228f74b0556efa4c8d9394bf29524007a3f', name='Check Code Change')
+    @allure.step("Generate Paybright Token")
     def test_get_token1(self):
         result = posts.generate_token()
         assert result.status_code == 200
 
-    @allure.step("Test2 execution start")
+    @allure.step("Fetch Todo Items")
     def test_get_token2(self):
         result = posts.get_1st_todo()
         assert result.status_code == 200
