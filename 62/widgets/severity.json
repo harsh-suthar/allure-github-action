@@ -1,30 +1,30 @@
 [ {
-  "uid" : "619b6e9a23c73581",
-  "name" : "test_web",
-  "time" : {
-    "start" : 1648670073126,
-    "stop" : 1648670073894,
-    "duration" : 768
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a24b23ffaac802c2",
-  "name" : "test_todo_api",
-  "time" : {
-    "start" : 1648670071847,
-    "stop" : 1648670071965,
-    "duration" : 118
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "be3851e771ecf2c9",
+  "uid" : "da73eec4ef969f",
   "name" : "test_paybright_token_api",
   "time" : {
-    "start" : 1648670071320,
-    "stop" : 1648670071845,
-    "duration" : 525
+    "start" : 1648670764908,
+    "stop" : 1648670765407,
+    "duration" : 499
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5469be7b9039de6b",
+  "name" : "test_todo_api",
+  "time" : {
+    "start" : 1648670765409,
+    "stop" : 1648670765501,
+    "duration" : 92
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c25177a361e1447b",
+  "name" : "test_web",
+  "time" : {
+    "start" : 1648670766621,
+    "stop" : 1648670767555,
+    "duration" : 934
   },
   "status" : "passed",
   "severity" : "normal"

@@ -4,11 +4,20 @@
       "failed" : 0,
       "broken" : 2,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 3
+      "total" : 4
     },
     "items" : [ {
+      "uid" : "c25177a361e1447b",
+      "reportUrl" : "https://harsh-suthar.github.io/allure-github-action/62//#testresult/c25177a361e1447b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648670766621,
+        "stop" : 1648670767555,
+        "duration" : 934
+      }
+    }, {
       "uid" : "619b6e9a23c73581",
       "reportUrl" : "https://harsh-suthar.github.io/allure-github-action/62//#testresult/619b6e9a23c73581",
       "status" : "passed",
@@ -44,11 +53,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 4,
       "unknown" : 0,
-      "total" : 3
+      "total" : 4
     },
     "items" : [ {
+      "uid" : "5469be7b9039de6b",
+      "reportUrl" : "https://harsh-suthar.github.io/allure-github-action/62//#testresult/5469be7b9039de6b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648670765409,
+        "stop" : 1648670765501,
+        "duration" : 92
+      }
+    }, {
       "uid" : "a24b23ffaac802c2",
       "reportUrl" : "https://harsh-suthar.github.io/allure-github-action/62//#testresult/a24b23ffaac802c2",
       "status" : "passed",
@@ -82,11 +100,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 4,
       "unknown" : 0,
-      "total" : 3
+      "total" : 4
     },
     "items" : [ {
+      "uid" : "da73eec4ef969f",
+      "reportUrl" : "https://harsh-suthar.github.io/allure-github-action/62//#testresult/da73eec4ef969f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648670764908,
+        "stop" : 1648670765407,
+        "duration" : 499
+      }
+    }, {
       "uid" : "be3851e771ecf2c9",
       "reportUrl" : "https://harsh-suthar.github.io/allure-github-action/62//#testresult/be3851e771ecf2c9",
       "status" : "passed",
