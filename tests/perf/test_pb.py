@@ -9,8 +9,6 @@ class TestWeb:
         print(odin)
         pass
 
-
-
     @allure.step("Test1 execution start")
     def test_get_token1(self):
         result = posts.generate_token()
