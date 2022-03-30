@@ -13,6 +13,9 @@ from allure_commons.types import AttachmentType
 def web_setup(request):
     options = webdriver.ChromeOptions()
     options.add_argument("start-maximized")
+    options.add_argument("--no-sandbox");
+    options.add_argument("--disable-dev-shm-usage");
+    options.add_argument("--headless");
     driver = webdriver.Chrome(
         executable_path=ChromeDriverManager().install(),
         options=options,
