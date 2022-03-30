@@ -1,0 +1,174 @@
+{
+  "uid" : "73f0e6ade3a8d56a",
+  "name" : "test_paybright_token_api",
+  "fullName" : "tests.API.test_api.TestAPI#test_paybright_token_api",
+  "historyId" : "a4f7cc2983e0ab30bd0518bff2c3323d",
+  "time" : {
+    "start" : 1648669893960,
+    "stop" : 1648669894242,
+    "duration" : 282
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1648669893868,
+      "stop" : 1648669893945,
+      "duration" : 77
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Generate Paybright Token",
+      "time" : {
+        "start" : 1648669893960,
+        "stop" : 1648669894242,
+        "duration" : 282
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Generate Token",
+        "time" : {
+          "start" : 1648669893960,
+          "stop" : 1648669894241,
+          "duration" : 281
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Execute request",
+          "time" : {
+            "start" : 1648669893961,
+            "stop" : 1648669894241,
+            "duration" : 280
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "6bda08332f5ae3aa",
+            "name" : "Post Request",
+            "source" : "6bda08332f5ae3aa.txt",
+            "type" : "text/plain",
+            "size" : 445
+          }, {
+            "uid" : "4e1e8ee53539030d",
+            "name" : "Response",
+            "source" : "4e1e8ee53539030d.txt",
+            "type" : "text/plain",
+            "size" : 948
+          } ],
+          "parameters" : [ {
+            "name" : "client",
+            "value" : "<module 'requests' from '/opt/hostedtoolcache/Python/3.10.2/x64/lib/python3.10/site-packages/requests/__init__.py'>"
+          }, {
+            "name" : "path",
+            "value" : "'/Authentication/GetToken'"
+          }, {
+            "name" : "body",
+            "value" : "{'portalDeviceGuid': 'DCFD38CE-60DD-4951-A2C7-4EB3DBC516F9', 'phoneNumber': '4168809871', 'culture': 'en'}"
+          } ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 2,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "client",
+          "value" : "<module 'requests' from '/opt/hostedtoolcache/Python/3.10.2/x64/lib/python3.10/site-packages/requests/__init__.py'>"
+        } ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.API"
+  }, {
+    "name" : "suite",
+    "value" : "test_api"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAPI"
+  }, {
+    "name" : "host",
+    "value" : "fv-az198-446"
+  }, {
+    "name" : "thread",
+    "value" : "2576-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.API.test_api"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Check Code Change",
+    "url" : "https://github.com/harsh-suthar/allure-github-action/commit/333ca228f74b0556efa4c8d9394bf29524007a3f",
+    "type" : "link"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "c2ec754070405139",
+        "reportUrl" : "https://harsh-suthar.github.io/allure-github-action/58//#testresult/c2ec754070405139",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669499819,
+          "stop" : 1648669500339,
+          "duration" : 520
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "73f0e6ade3a8d56a.json",
+  "parameterValues" : [ ]
+}
