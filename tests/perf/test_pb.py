@@ -9,6 +9,7 @@ class TestWeb:
         print(odin)
         pass
 
+    @allure.link('https://github.com/harsh-suthar/allure-github-action/commit/333ca228f74b0556efa4c8d9394bf29524007a3f', name='Check Code Change')
     @allure.step("Test1 execution start")
     def test_get_token1(self):
         result = posts.generate_token()
