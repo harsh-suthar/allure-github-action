@@ -5,9 +5,9 @@ import pytest
 
 @pytest.mark.usefixtures("set_up")
 class TestWeb:
-    def test_odin(self,odin):
-        print(odin)
-        pass
+    @allure.step("Webpage Screenshot Test")
+    def test_web(self):
+        self.driver.get("https://www.google.com")
 
     @allure.dynamic.link('https://github.com/harsh-suthar/allure-github-action/commit/333ca228f74b0556efa4c8d9394bf29524007a3f', name='Check Code Change')
     @allure.step("Generate Paybright Token")
