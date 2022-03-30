@@ -4,11 +4,20 @@
       "failed" : 0,
       "broken" : 2,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "2051a9387c2c041e",
+      "reportUrl" : "https://harsh-suthar.github.io/allure-github-action/62//#testresult/2051a9387c2c041e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648671138206,
+        "stop" : 1648671139369,
+        "duration" : 1163
+      }
+    }, {
       "uid" : "c25177a361e1447b",
       "reportUrl" : "https://harsh-suthar.github.io/allure-github-action/62//#testresult/c25177a361e1447b",
       "status" : "passed",
@@ -53,11 +62,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "89566a0ce30c1e0e",
+      "reportUrl" : "https://harsh-suthar.github.io/allure-github-action/62//#testresult/89566a0ce30c1e0e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648671135810,
+        "stop" : 1648671135866,
+        "duration" : 56
+      }
+    }, {
       "uid" : "5469be7b9039de6b",
       "reportUrl" : "https://harsh-suthar.github.io/allure-github-action/62//#testresult/5469be7b9039de6b",
       "status" : "passed",
@@ -100,11 +118,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "cfeafeb2bc2f1be5",
+      "reportUrl" : "https://harsh-suthar.github.io/allure-github-action/62//#testresult/cfeafeb2bc2f1be5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648671135416,
+        "stop" : 1648671135808,
+        "duration" : 392
+      }
+    }, {
       "uid" : "da73eec4ef969f",
       "reportUrl" : "https://harsh-suthar.github.io/allure-github-action/62//#testresult/da73eec4ef969f",
       "status" : "passed",
