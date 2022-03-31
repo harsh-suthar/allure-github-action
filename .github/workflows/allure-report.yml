@@ -5,7 +5,7 @@ on:
   - pull_request
 
 env:
-    ODIN: direct-i-03056e50fb32fd027
+    ODIN: ${{ secrets.ODIN }}
     TYPE: ${{ secrets.TYPE }}
 
 jobs:
