@@ -3,6 +3,14 @@
   "reportUrl" : "https://harsh-suthar.github.io/allure-github-action/70/",
   "reportName" : "Allure Report with history",
   "data" : {
+    "run" : 1,
+    "retry" : 0
+  }
+}, {
+  "buildOrder" : 70,
+  "reportUrl" : "https://harsh-suthar.github.io/allure-github-action/70/",
+  "reportName" : "Allure Report with history",
+  "data" : {
     "run" : 0,
     "retry" : 0
   }

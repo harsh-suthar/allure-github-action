@@ -1,5 +1,22 @@
 {
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
-  "children" : [ ],
+  "children" : [ {
+    "name" : "tests.Web.test_web",
+    "children" : [ {
+      "name" : "test_web",
+      "uid" : "45196ddbd023cad5",
+      "parentUid" : "520434d050d927617b14f98bf0e1eae7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648740869476,
+        "stop" : 1648740870200,
+        "duration" : 724
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "tests.Web.test_web"
+  } ],
   "name" : "packages"
 }
