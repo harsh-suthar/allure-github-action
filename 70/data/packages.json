@@ -4,13 +4,13 @@
     "name" : "tests.Web.test_web",
     "children" : [ {
       "name" : "test_web",
-      "uid" : "45196ddbd023cad5",
+      "uid" : "efb001862f65da34",
       "parentUid" : "520434d050d927617b14f98bf0e1eae7",
       "status" : "passed",
       "time" : {
-        "start" : 1648740869476,
-        "stop" : 1648740870200,
-        "duration" : 724
+        "start" : 1648741090639,
+        "stop" : 1648741091388,
+        "duration" : 749
       },
       "flaky" : false,
       "newFailed" : false,

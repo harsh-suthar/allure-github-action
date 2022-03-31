@@ -4,11 +4,20 @@
       "failed" : 0,
       "broken" : 2,
       "skipped" : 0,
-      "passed" : 10,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "efb001862f65da34",
+      "reportUrl" : "https://harsh-suthar.github.io/allure-github-action/70//#testresult/efb001862f65da34",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648741090639,
+        "stop" : 1648741091388,
+        "duration" : 749
+      }
+    }, {
       "uid" : "45196ddbd023cad5",
       "reportUrl" : "https://harsh-suthar.github.io/allure-github-action/70//#testresult/45196ddbd023cad5",
       "status" : "passed",
