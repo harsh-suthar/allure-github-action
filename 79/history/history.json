@@ -4,11 +4,20 @@
       "failed" : 0,
       "broken" : 2,
       "skipped" : 0,
-      "passed" : 17,
+      "passed" : 18,
       "unknown" : 0,
-      "total" : 19
+      "total" : 20
     },
     "items" : [ {
+      "uid" : "aca56a80faf9eb03",
+      "reportUrl" : "https://harsh-suthar.github.io/allure-github-action/79//#testresult/aca56a80faf9eb03",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648750576318,
+        "stop" : 1648750577021,
+        "duration" : 703
+      }
+    }, {
       "uid" : "430a56f25bd72e26",
       "reportUrl" : "https://harsh-suthar.github.io/allure-github-action/79//#testresult/430a56f25bd72e26",
       "status" : "passed",
@@ -188,11 +197,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 17,
+      "passed" : 18,
       "unknown" : 0,
-      "total" : 17
+      "total" : 18
     },
     "items" : [ {
+      "uid" : "6d66fa707ca9fe8e",
+      "reportUrl" : "https://harsh-suthar.github.io/allure-github-action/79//#testresult/6d66fa707ca9fe8e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648750575417,
+        "stop" : 1648750575496,
+        "duration" : 79
+      }
+    }, {
       "uid" : "5891a8e08c652f22",
       "reportUrl" : "https://harsh-suthar.github.io/allure-github-action/79//#testresult/5891a8e08c652f22",
       "status" : "passed",
@@ -352,11 +370,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 17,
+      "passed" : 18,
       "unknown" : 0,
-      "total" : 17
+      "total" : 18
     },
     "items" : [ {
+      "uid" : "2cbfea11d83110de",
+      "reportUrl" : "https://harsh-suthar.github.io/allure-github-action/79//#testresult/2cbfea11d83110de",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648750574973,
+        "stop" : 1648750575398,
+        "duration" : 425
+      }
+    }, {
       "uid" : "219f0503775a1dbf",
       "reportUrl" : "https://harsh-suthar.github.io/allure-github-action/79//#testresult/219f0503775a1dbf",
       "status" : "passed",

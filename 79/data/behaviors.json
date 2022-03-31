@@ -2,39 +2,39 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "children" : [ {
     "name" : "test_paybright_token_api",
-    "uid" : "219f0503775a1dbf",
+    "uid" : "2cbfea11d83110de",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1648749446114,
-      "stop" : 1648749446579,
-      "duration" : 465
+      "start" : 1648750574973,
+      "stop" : 1648750575398,
+      "duration" : 425
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "test_todo_api",
-    "uid" : "5891a8e08c652f22",
+    "uid" : "6d66fa707ca9fe8e",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1648749446595,
-      "stop" : 1648749446730,
-      "duration" : 135
+      "start" : 1648750575417,
+      "stop" : 1648750575496,
+      "duration" : 79
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "test_web",
-    "uid" : "430a56f25bd72e26",
+    "uid" : "aca56a80faf9eb03",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1648749447608,
-      "stop" : 1648749448389,
-      "duration" : 781
+      "start" : 1648750576318,
+      "stop" : 1648750577021,
+      "duration" : 703
     },
     "flaky" : false,
     "newFailed" : false,
