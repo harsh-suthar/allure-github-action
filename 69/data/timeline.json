@@ -1,0 +1,52 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az212-70",
+    "children" : [ {
+      "name" : "2476-MainThread",
+      "children" : [ {
+        "name" : "test_paybright_token_api",
+        "uid" : "d1a3119049de9280",
+        "parentUid" : "d0640d3a3aa60c5c0e3916cf2f174e4b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648740711055,
+          "stop" : 1648740711445,
+          "duration" : 390
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_web",
+        "uid" : "f42cd55f51dc2f4b",
+        "parentUid" : "d0640d3a3aa60c5c0e3916cf2f174e4b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648740712593,
+          "stop" : 1648740713222,
+          "duration" : 629
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_todo_api",
+        "uid" : "9dd791710ef6dfe0",
+        "parentUid" : "d0640d3a3aa60c5c0e3916cf2f174e4b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648740711447,
+          "stop" : 1648740711520,
+          "duration" : 73
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d0640d3a3aa60c5c0e3916cf2f174e4b"
+    } ],
+    "uid" : "31f7486b7030a5743429c31e2f24bfb6"
+  } ],
+  "name" : "timeline"
+}
