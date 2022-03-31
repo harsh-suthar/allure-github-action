@@ -5,9 +5,11 @@ import pytest
 from base.baseclass import webbaseclass
 from allure_commons.types import AttachmentType
 
+
 @pytest.mark.usefixtures("web_setup")
 class TestWeb(webbaseclass):
 
+    @pytest.mark.WEB
     @allure.step("Webpage Screenshot Test")
     def test_web(self):
         self.driver.get("https://www.google.com")

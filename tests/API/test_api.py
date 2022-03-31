@@ -7,6 +7,7 @@ from base.baseclass import webbaseclass
 
 class TestAPI:
 
+    @pytest.mark.API
     @allure.link('https://github.com/harsh-suthar/allure-github-action/commit/333ca228f74b0556efa4c8d9394bf29524007a3f',
                  name='Check Code Change')
     @allure.step("Generate Paybright Token")
@@ -14,6 +15,7 @@ class TestAPI:
         result = posts.generate_token()
         assert result.status_code == 200
 
+    @pytest.mark.API
     @allure.step("Fetch Todo Items")
     def test_todo_api(self):
         result = posts.get_1st_todo()
