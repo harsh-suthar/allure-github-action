@@ -1,0 +1,36 @@
+-----------Response Start-----------
+Status code:200
+Date: Thu, 31 Mar 2022 16:11:36 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+X-Ratelimit-Limit: 1000
+X-Ratelimit-Remaining: 999
+X-Ratelimit-Reset: 1647806583
+Vary: Origin, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: max-age=43200
+Pragma: no-cache
+Expires: -1
+X-Content-Type-Options: nosniff
+Etag: W/"53-hfEnumeNh6YirfjyjaujcOPPT+s"
+Via: 1.1 vegur
+CF-Cache-Status: HIT
+Age: 24252
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=lE4lXgq%2B1m83%2F0rCwFJT7X14K0A%2BjEolzrr%2FPMRfQJ15w1v9rGfp3%2FNYJ86j%2FySTfb56MVZXq%2BacPfzyyxJAp73RCHb3ou3%2FuLfkEi2PBsredQ80GJ2QuKvbl0Cmf3OiLCnGPohYkVdd8Je%2BRXT6"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 6f4a5c9eeace5d97-IAD
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+Response Body:
+{
+  "userId": 1,
+  "id": 1,
+  "title": "delectus aut autem",
+  "completed": false
+}
+-----------Response End-----------
