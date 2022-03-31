@@ -1,0 +1,148 @@
+{
+  "uid" : "6ebe69284cabbdf8",
+  "name" : "test_web",
+  "fullName" : "tests.Web.test_web.TestWeb#test_web",
+  "historyId" : "49bc22eb42716246c9a2b5aae1fa5143",
+  "time" : {
+    "start" : 1648749000704,
+    "stop" : 1648749001319,
+    "duration" : 615
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "web_setup",
+    "time" : {
+      "start" : 1648748999613,
+      "stop" : 1648749000679,
+      "duration" : 1066
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1648748999552,
+      "stop" : 1648748999613,
+      "duration" : 61
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Webpage Screenshot Test",
+      "time" : {
+        "start" : 1648749000704,
+        "stop" : 1648749001319,
+        "duration" : 615
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d0c115a476e8fae9",
+        "name" : "Test Pass",
+        "source" : "d0c115a476e8fae9.png",
+        "type" : "image/png",
+        "size" : 39895
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "e8898989b8cfc096",
+      "name" : "log",
+      "source" : "e8898989b8cfc096.txt",
+      "type" : "text/plain",
+      "size" : 589
+    }, {
+      "uid" : "a9c1aaf3292f0464",
+      "name" : "stderr",
+      "source" : "a9c1aaf3292f0464.txt",
+      "type" : "text/plain",
+      "size" : 408
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "web_setup::0",
+    "time" : {
+      "start" : 1648749001320,
+      "stop" : 1648749001380,
+      "duration" : 60
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('web_setup')"
+  }, {
+    "name" : "tag",
+    "value" : "WEB"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.Web"
+  }, {
+    "name" : "suite",
+    "value" : "test_web"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestWeb"
+  }, {
+    "name" : "host",
+    "value" : "fv-az204-795"
+  }, {
+    "name" : "thread",
+    "value" : "2564-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.Web.test_web"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "WEB", "@pytest.mark.usefixtures('web_setup')" ]
+  },
+  "source" : "6ebe69284cabbdf8.json",
+  "parameterValues" : [ ]
+}

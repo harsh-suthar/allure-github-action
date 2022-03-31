@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Mar 31 17:50:03 GMT 2022","Thu Mar 31 17:50:03 GMT 2022","586","tests.Web","test_web","TestWeb","","","test_web",""
+"passed","Thu Mar 31 17:50:01 GMT 2022","Thu Mar 31 17:50:02 GMT 2022","425","tests.API","test_api","TestAPI","","","test_paybright_token_api",""
+"passed","Thu Mar 31 17:50:02 GMT 2022","Thu Mar 31 17:50:02 GMT 2022","98","tests.API","test_api","TestAPI","","","test_todo_api",""
