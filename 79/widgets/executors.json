@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://harsh-suthar.github.io/allure-github-action",
+  "buildOrder" : 79,
+  "buildName" : "GitHub Actions Run #2072741880",
+  "buildUrl" : "https://github.com/harsh-suthar/allure-github-action/actions/runs/2072741880",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://harsh-suthar.github.io/allure-github-action/79/"
+} ]

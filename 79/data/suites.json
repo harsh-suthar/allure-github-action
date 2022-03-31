@@ -1,0 +1,68 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "tests.API",
+    "children" : [ {
+      "name" : "test_api",
+      "children" : [ {
+        "name" : "TestAPI",
+        "children" : [ {
+          "name" : "test_paybright_token_api",
+          "uid" : "219f0503775a1dbf",
+          "parentUid" : "3405595c845248608cc5ce48ad651d16",
+          "status" : "passed",
+          "time" : {
+            "start" : 1648749446114,
+            "stop" : 1648749446579,
+            "duration" : 465
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_todo_api",
+          "uid" : "5891a8e08c652f22",
+          "parentUid" : "3405595c845248608cc5ce48ad651d16",
+          "status" : "passed",
+          "time" : {
+            "start" : 1648749446595,
+            "stop" : 1648749446730,
+            "duration" : 135
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "3405595c845248608cc5ce48ad651d16"
+      } ],
+      "uid" : "155123b160d736cf82447f0bac0cfbff"
+    } ],
+    "uid" : "2a194ec587383e3d8f101b38576bc81c"
+  }, {
+    "name" : "tests.Web",
+    "children" : [ {
+      "name" : "test_web",
+      "children" : [ {
+        "name" : "TestWeb",
+        "children" : [ {
+          "name" : "test_web",
+          "uid" : "430a56f25bd72e26",
+          "parentUid" : "99a385b07adcc6e968550e81ef796cef",
+          "status" : "passed",
+          "time" : {
+            "start" : 1648749447608,
+            "stop" : 1648749448389,
+            "duration" : 781
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "99a385b07adcc6e968550e81ef796cef"
+      } ],
+      "uid" : "529133367f7d33684ab8fcdafba881f9"
+    } ],
+    "uid" : "92ffb3589fdbbe9653c9d296b5699f17"
+  } ],
+  "name" : "suites"
+}
