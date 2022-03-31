@@ -29,8 +29,8 @@ jobs:
           chmod +x ./scripts/installChrome.sh
           ./scripts/installChrome.sh
 
-      - name: Run ${{env.TYPE}} Test
-        if: ${{env.TYPE}} == 'WEB' || ${{env.TYPE}} == 'API'
+      - if: ${{env.TYPE}} == 'WEB' || ${{env.TYPE}} == 'API'
+        name: Run marker Test
         run: pytest -m $TYPE --alluredir=allure-results
         continue-on-error: true
         
