@@ -34,7 +34,8 @@ jobs:
         run: pytest -m $TYPE --alluredir=allure-results
         continue-on-error: true
         
-      - name: Run all Test
+      - if: ${{env.TYPE}} != 'WEB' || ${{env.TYPE}} != 'API'
+        name: Run all Test
         run: pytest --alluredir=allure-results
         continue-on-error: true
 
