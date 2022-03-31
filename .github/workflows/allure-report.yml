@@ -6,7 +6,7 @@ on:
 
 env:
     ODIN: direct-i-03056e50fb32fd027
-    TYPE: ${{ secrets.Type }}
+    TYPE: ${{ secrets.TYPE }}
 
 jobs:
   autotests:
