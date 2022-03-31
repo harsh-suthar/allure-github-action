@@ -1,0 +1,12 @@
+-----------Response Start-----------
+Status code:200
+Server: nginx
+Date: Thu, 31 Mar 2022 16:17:36 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+
+Response Body:
+{"token":"eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJmYTM2Mzg0Ni0xMDQ2LTQyZGQtOGY3ZC0xYjRkM2IyOWNiMjAiLCJQb3J0YWxEZXZpY2VHdWlkIjoiZGNmZDM4Y2UtNjBkZC00OTUxLWEyYzctNGViM2RiYzUxNmY5IiwiQWNjZXNzTGV2ZWwiOiJBdXRoU3RlcDEiLCJwaG9uZV9udW1iZXIiOiI0MTY4ODA5ODcxIiwibmJmIjoxNjQ4NzQzNDU2LCJleHAiOjE2NDg3NDM3NTYsImlhdCI6MTY0ODc0MzQ1NiwiaXNzIjoiaHR0cHM6Ly9wbGF5Z3JvdW5kLnBvcnRhbC5wYXlicmlnaHQuY29tIiwiYXVkIjoiaHR0cHM6Ly9wbGF5Z3JvdW5kLnBvcnRhbC5wYXlicmlnaHQuY29tIn0.2OHnTjmJ9EB2VvfOWSPwnECAhPps6Qh61HQ_WOfji2Cl2TPI1xQJXrB9gKcMs-ThLyBs80T6l5yF93apm-pAbg","expiration":"2022-03-31T16:22:36Z","statusDescription":"success","statusCode":200}
+-----------Response End-----------

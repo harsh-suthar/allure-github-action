@@ -1,4 +1,4 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Thu Mar 31 16:14:00 GMT 2022","Thu Mar 31 16:14:00 GMT 2022","73","tests.API","test_api","TestAPI","","","test_todo_api",""
-"passed","Thu Mar 31 16:13:59 GMT 2022","Thu Mar 31 16:14:00 GMT 2022","448","tests.API","test_api","TestAPI","","","test_paybright_token_api",""
-"passed","Thu Mar 31 16:14:01 GMT 2022","Thu Mar 31 16:14:02 GMT 2022","1633","tests.Web","test_web","TestWeb","","","test_web",""
+"passed","Thu Mar 31 16:17:36 GMT 2022","Thu Mar 31 16:17:36 GMT 2022","73","tests.API","test_api","TestAPI","","","test_todo_api",""
+"passed","Thu Mar 31 16:17:37 GMT 2022","Thu Mar 31 16:17:38 GMT 2022","679","tests.Web","test_web","TestWeb","","","test_web",""
+"passed","Thu Mar 31 16:17:35 GMT 2022","Thu Mar 31 16:17:36 GMT 2022","531","tests.API","test_api","TestAPI","","","test_paybright_token_api",""

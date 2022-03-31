@@ -4,6 +4,11 @@
   "reportName" : "Allure Report with history",
   "data" : { }
 }, {
+  "buildOrder" : 76,
+  "reportUrl" : "https://harsh-suthar.github.io/allure-github-action/76/",
+  "reportName" : "Allure Report with history",
+  "data" : { }
+}, {
   "buildOrder" : 75,
   "reportUrl" : "https://harsh-suthar.github.io/allure-github-action/75/",
   "reportName" : "Allure Report with history",
