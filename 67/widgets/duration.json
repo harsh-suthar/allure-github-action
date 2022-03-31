@@ -1,0 +1,31 @@
+[ {
+  "uid" : "219924254f93e53e",
+  "name" : "test_paybright_token_api",
+  "time" : {
+    "start" : 1648740153458,
+    "stop" : 1648740154053,
+    "duration" : 595
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bff7cf0671104a5d",
+  "name" : "test_todo_api",
+  "time" : {
+    "start" : 1648740154055,
+    "stop" : 1648740154144,
+    "duration" : 89
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "af1033c36da3fd18",
+  "name" : "test_web",
+  "time" : {
+    "start" : 1648740155384,
+    "stop" : 1648740156110,
+    "duration" : 726
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
