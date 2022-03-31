@@ -6,6 +6,7 @@ on:
 
 env:
     ODIN: direct-i-03056e50fb32fd027
+    TYPE: ${{ secrets.Type }}
 
 jobs:
   autotests:
@@ -20,6 +21,7 @@ jobs:
 
       - name: Install Packages
         run: |
+          echo $TYPE
           python -m pip install --upgrade pip
           pip install -r requirements.txt
           
