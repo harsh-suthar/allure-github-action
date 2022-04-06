@@ -1,6 +1,6 @@
 #!/bin/bash
 set -ex
-wget -O firefox-stable.tar.bz2 https://download.mozilla.org/?product=firefox-latest&os=linux&lang=en-US
+wget https://download.mozilla.org/?product=firefox-latest&os=linux&lang=en-US
 tar xjf firefox-*.tar.bz2
 mv firefox /opt
 ln -s /opt/firefox/firefox /usr/local/bin/firefox
