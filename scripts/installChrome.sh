@@ -1,7 +1,7 @@
 #!/bin/bash
 set -ex
-wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 wget -O firefox-stable.tar.bz2 https://download.mozilla.org/?product=firefox-latest&os=linux&lang=en-US
-sudo apt install ./google-chrome-stable_current_amd64.deb
-sudo apt install ./firefox-stable.tar.bz2
-sudo apt install firefox-stable.tar.bz2
+tar xjf firefox-*.tar.bz2
+mv firefox /opt
+ln -s /opt/firefox/firefox /usr/local/bin/firefox
+wget https://raw.githubusercontent.com/mozilla/sumo-kb/main/install-firefox-linux/firefox.desktop -P /usr/local/share/applications
