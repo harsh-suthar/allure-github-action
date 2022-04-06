@@ -1,0 +1,12 @@
+-----------Response Start-----------
+Status code:200
+Server: nginx
+Date: Wed, 06 Apr 2022 15:54:41 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+
+Response Body:
+{"token":"eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI0ZjI2ODRkYi05ZWU2LTRkMTQtOWMzYS1hNzMyOTEwZjIyMmUiLCJQb3J0YWxEZXZpY2VHdWlkIjoiZGNmZDM4Y2UtNjBkZC00OTUxLWEyYzctNGViM2RiYzUxNmY5IiwiQWNjZXNzTGV2ZWwiOiJBdXRoU3RlcDEiLCJwaG9uZV9udW1iZXIiOiI0MTY4ODA5ODcxIiwibmJmIjoxNjQ5MjYwNDgxLCJleHAiOjE2NDkyNjA3ODEsImlhdCI6MTY0OTI2MDQ4MSwiaXNzIjoiaHR0cHM6Ly9wbGF5Z3JvdW5kLnBvcnRhbC5wYXlicmlnaHQuY29tIiwiYXVkIjoiaHR0cHM6Ly9wbGF5Z3JvdW5kLnBvcnRhbC5wYXlicmlnaHQuY29tIn0.dsMRqBvSDbxXDnAE7WVpPqT3DSHAsso6VXjtVx5sCotElVmQCuD7TaoTC3-qiIDn22Y4TwcEcOOvkgfr6IKyBg","expiration":"2022-04-06T15:59:41Z","statusDescription":"success","statusCode":200}
+-----------Response End-----------
