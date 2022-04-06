@@ -11,13 +11,13 @@ from allure_commons.types import AttachmentType
 
 @pytest.fixture
 def web_setup(request):
-    options = webdriver.ChromeOptions()
+    options = webdriver.FirefoxProfile()
     options.add_argument("start-maximized")
     options.add_argument("--no-sandbox");
     options.add_argument("--disable-dev-shm-usage");
     options.add_argument("--headless");
-    driver = webdriver.Chrome(
-        executable_path=ChromeDriverManager().install(),
+    driver = webdriver.Firefox(
+        executable_path=GeckoDriverManager().install(),
         options=options,
     )
     driver.maximize_window()
