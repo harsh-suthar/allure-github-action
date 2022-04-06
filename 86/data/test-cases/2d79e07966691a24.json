@@ -1,0 +1,302 @@
+{
+  "uid" : "2d79e07966691a24",
+  "name" : "test_todo_api",
+  "fullName" : "tests.API.test_api.TestAPI#test_todo_api",
+  "historyId" : "64ad3e53b1612ae445fee270932deb29",
+  "time" : {
+    "start" : 1649259812650,
+    "stop" : 1649259812778,
+    "duration" : 128
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1649259812025,
+      "stop" : 1649259812059,
+      "duration" : 34
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Fetch Todo Items",
+      "time" : {
+        "start" : 1649259812651,
+        "stop" : 1649259812778,
+        "duration" : 127
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get 1st Todo item",
+        "time" : {
+          "start" : 1649259812651,
+          "stop" : 1649259812778,
+          "duration" : 127
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "1dc08056b12709e0",
+          "name" : "Get Request",
+          "source" : "1dc08056b12709e0.txt",
+          "type" : "text/plain",
+          "size" : 231
+        }, {
+          "uid" : "6f7cfa2745ac258f",
+          "name" : "Response",
+          "source" : "6f7cfa2745ac258f.txt",
+          "type" : "text/plain",
+          "size" : 1264
+        } ],
+        "parameters" : [ {
+          "name" : "client",
+          "value" : "<module 'requests' from '/opt/hostedtoolcache/Python/3.10.4/x64/lib/python3.10/site-packages/requests/__init__.py'>"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "API"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.API"
+  }, {
+    "name" : "suite",
+    "value" : "test_api"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAPI"
+  }, {
+    "name" : "host",
+    "value" : "fv-az292-903"
+  }, {
+    "name" : "thread",
+    "value" : "2649-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.API.test_api"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 19,
+        "unknown" : 0,
+        "total" : 19
+      },
+      "items" : [ {
+        "uid" : "6d66fa707ca9fe8e",
+        "reportUrl" : "https://harsh-suthar.github.io/allure-github-action/79//#testresult/6d66fa707ca9fe8e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648750575417,
+          "stop" : 1648750575496,
+          "duration" : 79
+        }
+      }, {
+        "uid" : "5891a8e08c652f22",
+        "reportUrl" : "https://harsh-suthar.github.io/allure-github-action/79//#testresult/5891a8e08c652f22",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648749446595,
+          "stop" : 1648749446730,
+          "duration" : 135
+        }
+      }, {
+        "uid" : "6e3876ccb09a582d",
+        "reportUrl" : "https://harsh-suthar.github.io/allure-github-action/78//#testresult/6e3876ccb09a582d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648749002377,
+          "stop" : 1648749002475,
+          "duration" : 98
+        }
+      }, {
+        "uid" : "1cf596c3b9832692",
+        "reportUrl" : "https://harsh-suthar.github.io/allure-github-action/77//#testresult/1cf596c3b9832692",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648746661889,
+          "stop" : 1648746661927,
+          "duration" : 38
+        }
+      }, {
+        "uid" : "6c7eaa5525eca4e2",
+        "reportUrl" : "https://harsh-suthar.github.io/allure-github-action/76//#testresult/6c7eaa5525eca4e2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648743456502,
+          "stop" : 1648743456575,
+          "duration" : 73
+        }
+      }, {
+        "uid" : "8bc77238848157e2",
+        "reportUrl" : "https://harsh-suthar.github.io/allure-github-action/76//#testresult/8bc77238848157e2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648743240179,
+          "stop" : 1648743240252,
+          "duration" : 73
+        }
+      }, {
+        "uid" : "9cc41fb3fc033734",
+        "reportUrl" : "https://harsh-suthar.github.io/allure-github-action/75//#testresult/9cc41fb3fc033734",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648743096104,
+          "stop" : 1648743096161,
+          "duration" : 57
+        }
+      }, {
+        "uid" : "9dd791710ef6dfe0",
+        "reportUrl" : "https://harsh-suthar.github.io/allure-github-action/69//#testresult/9dd791710ef6dfe0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648740711447,
+          "stop" : 1648740711520,
+          "duration" : 73
+        }
+      }, {
+        "uid" : "d0e71068de88ea69",
+        "reportUrl" : "https://harsh-suthar.github.io/allure-github-action/68//#testresult/d0e71068de88ea69",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648740381676,
+          "stop" : 1648740381794,
+          "duration" : 118
+        }
+      }, {
+        "uid" : "bff7cf0671104a5d",
+        "reportUrl" : "https://harsh-suthar.github.io/allure-github-action/67//#testresult/bff7cf0671104a5d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648740154055,
+          "stop" : 1648740154144,
+          "duration" : 89
+        }
+      }, {
+        "uid" : "808db820337badcd",
+        "reportUrl" : "https://harsh-suthar.github.io/allure-github-action/66//#testresult/808db820337badcd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648739324521,
+          "stop" : 1648739324584,
+          "duration" : 63
+        }
+      }, {
+        "uid" : "e8c9f1dafeb93307",
+        "reportUrl" : "https://harsh-suthar.github.io/allure-github-action/65//#testresult/e8c9f1dafeb93307",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648739238581,
+          "stop" : 1648739238694,
+          "duration" : 113
+        }
+      }, {
+        "uid" : "ec87e51fbb78fbea",
+        "reportUrl" : "https://harsh-suthar.github.io/allure-github-action/63//#testresult/ec87e51fbb78fbea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648671804056,
+          "stop" : 1648671804193,
+          "duration" : 137
+        }
+      }, {
+        "uid" : "89566a0ce30c1e0e",
+        "reportUrl" : "https://harsh-suthar.github.io/allure-github-action/62//#testresult/89566a0ce30c1e0e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648671135810,
+          "stop" : 1648671135866,
+          "duration" : 56
+        }
+      }, {
+        "uid" : "5469be7b9039de6b",
+        "reportUrl" : "https://harsh-suthar.github.io/allure-github-action/62//#testresult/5469be7b9039de6b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648670765409,
+          "stop" : 1648670765501,
+          "duration" : 92
+        }
+      }, {
+        "uid" : "a24b23ffaac802c2",
+        "reportUrl" : "https://harsh-suthar.github.io/allure-github-action/62//#testresult/a24b23ffaac802c2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648670071847,
+          "stop" : 1648670071965,
+          "duration" : 118
+        }
+      }, {
+        "uid" : "995325656b91ead1",
+        "reportUrl" : "https://harsh-suthar.github.io/allure-github-action/61//#testresult/995325656b91ead1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669894244,
+          "stop" : 1648669894304,
+          "duration" : 60
+        }
+      }, {
+        "uid" : "df551f6af626cf06",
+        "reportUrl" : "https://harsh-suthar.github.io/allure-github-action/58//#testresult/df551f6af626cf06",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669500342,
+          "stop" : 1648669500410,
+          "duration" : 68
+        }
+      } ]
+    },
+    "tags" : [ "API" ]
+  },
+  "source" : "2d79e07966691a24.json",
+  "parameterValues" : [ ]
+}

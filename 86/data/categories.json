@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "AttributeError: 'FirefoxProfile' object has no attribute 'add_argument'",
+      "children" : [ {
+        "name" : "test_web",
+        "uid" : "1e3bc8292f4346a8",
+        "parentUid" : "3b2da96f0da2dea07d9a9b44137257c2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1649259812779,
+          "stop" : 1649259812779,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3b2da96f0da2dea07d9a9b44137257c2"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
