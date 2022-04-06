@@ -11,7 +11,7 @@ from allure_commons.types import AttachmentType
 
 @pytest.fixture
 def web_setup(request):
-    options = webdriver.FirefoxProfile()
+    options = webdriver.Options()
     options.add_argument("start-maximized")
     options.add_argument("--no-sandbox");
     options.add_argument("--disable-dev-shm-usage");
