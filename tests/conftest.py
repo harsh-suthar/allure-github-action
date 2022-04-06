@@ -2,6 +2,7 @@ import pytest
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
+from webdriver_manager.firefox import GeckoDriverManager
 import os
 import allure
 from dotenv import load_dotenv
@@ -21,7 +22,7 @@ def web_setup(request):
     driver = webdriver.Firefox(
         executable_path=GeckoDriverManager().install(),
         options=options,
-        firefox_profile=ffprofile, firefox_options=options
+        firefox_profile=ffprofile, firefox_options=options,
     )
     driver.maximize_window()
     request.cls.driver = driver
