@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "NameError: name 'Service' is not defined",
+      "children" : [ {
+        "name" : "test_web",
+        "uid" : "978293defcb0fdef",
+        "parentUid" : "bf16870c8385dbd6b5d7260238bd67e0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1649782829139,
+          "stop" : 1649782829139,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bf16870c8385dbd6b5d7260238bd67e0"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
