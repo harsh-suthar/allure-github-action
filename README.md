@@ -1,5 +1,6 @@
 # Allure Workflow #
 
+[![Allure Report](https://github.com/harsh-suthar/allure-github-action/actions/workflows/allure-report.yml/badge.svg)](https://github.com/harsh-suthar/allure-github-action/actions/workflows/allure-report.yml)
 
 ### What is this repository for? ###
 
