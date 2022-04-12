@@ -27,12 +27,14 @@ jobs:
       - name: Install Chrome
         uses: browser-actions/setup-chrome@latest
       
-      - name: Run Test
       - if: ${{env.TYPE}} == 'WEB'
+        name: Run Web Test
         run: pytest -m web --alluredir=allure-results
       - if: ${{env.TYPE}} == 'API'
+        name: Run Api Test
         run: pytest -m api --alluredir=allure-results
       - if: ${{env.TYPE}} != 'API' || 'WEB'
+        name: Run all Test
         run: pytest --alluredir=allure-results
 
       - name: Get Allure history
