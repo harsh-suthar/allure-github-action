@@ -26,16 +26,25 @@ jobs:
           
       - name: Install Chrome
         uses: browser-actions/setup-chrome@latest
+        
+      - name: Install Firefox 
+        uses: browser-actions/setup-geckodriver@latest
       
+      - name: Install Edge 
+        uses: browser-actions/setup-edge@latest
+
       - if: ${{env.TYPE}} == 'WEB'
         name: Run Web Test
-        run: pytest -m WEB --alluredir=allure-results
+        run: |
+          pytest -m WEB --alluredir=allure-results
       - if: ${{env.TYPE}} == 'API'
         name: Run API Test
-        run: pytest -m API --alluredir=allure-results
+        run: |
+          pytest -m API --alluredir=allure-results
       - if: ${{env.TYPE}} == 'ALL'
         name: Run all Test
-        run: pytest --alluredir=allure-results
+        run: |
+          pytest --alluredir=allure-results
 
       - name: Get Allure history
         uses: actions/checkout@v2
