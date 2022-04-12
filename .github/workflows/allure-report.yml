@@ -29,9 +29,6 @@ jobs:
         
       - name: Install Firefox 
         uses: browser-actions/setup-geckodriver@latest
-      
-      - name: Install Edge 
-        uses: browser-actions/setup-edge@latest
 
       - if: ${{env.TYPE}} == 'WEB'
         name: Run Web Test
