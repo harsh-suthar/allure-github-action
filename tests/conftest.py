@@ -18,7 +18,7 @@ def web_setup(request):
     options.add_argument("--disable-dev-shm-usage");
     options.add_argument("--headless");
     driver = webdriver.Chrome(
-        executable_path=ChromeDriverManager().install(),
+        service=Service(ChromeDriverManager().install()),
         options=options,
     )
     driver.maximize_window()
