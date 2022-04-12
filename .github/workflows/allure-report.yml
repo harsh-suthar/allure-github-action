@@ -24,18 +24,10 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
           
-      - name: Install Google Chrome
-        run: |
-          chmod +x ./scripts/installChrome.sh
-          ./scripts/installChrome.sh
-
-      - if: ${{env.TYPE}} == 'WEB' || ${{env.TYPE}} == 'API'
-        name: Run marker Test
-        run: pytest -m $TYPE --alluredir=allure-results
-        continue-on-error: true
+      - name: Install Chrome
+        uses: browser-actions/setup-chrome@latest
         
-      - if: ${{env.TYPE}} != 'WEB' || ${{env.TYPE}} != 'API'
-        name: Run all Test
+      - name: Run all Test
         run: pytest --alluredir=allure-results
         continue-on-error: true
 
