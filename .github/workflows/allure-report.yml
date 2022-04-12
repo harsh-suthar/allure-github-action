@@ -29,11 +29,11 @@ jobs:
       
       - if: ${{env.TYPE}} == 'WEB'
         name: Run Web Test
-        run: pytest -m web --alluredir=allure-results
+        run: pytest -m WEB --alluredir=allure-results
       - if: ${{env.TYPE}} == 'API'
-        name: Run Api Test
-        run: pytest -m api --alluredir=allure-results
-      - if: ${{env.TYPE}} != 'API' || 'WEB'
+        name: Run API Test
+        run: pytest -m API --alluredir=allure-results
+      - if: ${{env.TYPE}} == 'ALL'
         name: Run all Test
         run: pytest --alluredir=allure-results
 
