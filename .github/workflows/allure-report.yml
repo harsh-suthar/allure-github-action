@@ -30,16 +30,18 @@ jobs:
       - name: Install Firefox 
         uses: browser-actions/setup-geckodriver@latest
 
-      - if: ${{env.TYPE}} == 'WEB'
-        name: Run Web Test
+      - name: Run Web Test
+        if: ${{env.TYPE}} == 'WEB'
         run: |
           pytest -m WEB --alluredir=allure-results
-      - if: ${{env.TYPE}} == 'API'
-        name: Run API Test
+
+      - name: Run API Test
+        if: ${{env.TYPE}} == 'API'
         run: |
           pytest -m API --alluredir=allure-results
-      - if: ${{env.TYPE}} == 'ALL'
-        name: Run all Test
+          
+      - name: Run all Test
+        if: ${{env.TYPE}} == 'ALL'
         run: |
           pytest --alluredir=allure-results
 
